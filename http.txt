@@ -1,0 +1,84 @@
+See what is a http 
+
+In real world example , http is nothing but a hospital , where which we doctors can use to showcase or expose our worth , I am not a doctor btw . So when we write a code , we use http as a hospital to expose our code s end result to the world . 
+
+
+Now what is express , its the builder of the hospital , we can build http with anything we want , we can use springboot or something else , but for now express is what we gonna be using . 
+
+
+Now same goes for node js , node js is just like another builder that we gonna be using for building our js code , and running it properly 
+
+
+When we create app . Get or like express app , we just create a room inside the big hospital  , that is what happening in the code , in that room the docs do different things , in one room maybe it is blood test , and in the other one maybe orthopaedic , this is the meaning of the codebases ,this doc might be able to do different things and expertises in many fields:  the example is below - 
+
+app. get("/", function (req, res) {
+const n # req. query.n;
+const ans = calculateSum(n)
+res. send (ans) ;
+
+
+app.listen(3000) , the number of the room , the room number will help the patients that is the audience to get into the code , or reach the doctors 
+
+
+Or maybe the hospital has two or more docs , rooms are 3000 and 3001 
+These are called ports 
+
+
+High level , express is used to create http server 
+
+
+
+Docs are single threaded , just like js , they can deal with one at one time , there is no scene of multitasking 
+
+
+When you have created the http Server but has not done anything , that is no work or no additional code has been written , it will show cannot get , that means the doc is ready but no operations have been done by him right now inside the room , the cabin where he sits 
+
+The / handler has nothing for now 
+
+The / is the route 
+
+What is route , it basically  means that whatever is after the / 
+
+
+When I am asking the server , like I wrote n=3 after the / , it is supposed to be get request 
+
+If I want to put a new data in the backend , this is post 
+
+If I need to update a data then it is put 
+
+And If I want to delete something from the sever then it is delete request 
+
+Status codes
+1. 200 - Everything went fine
+2. 404 - Doctor is not in the hospital
+3. 500 - Mid surgery light went away
+4. 411 - Inputs were incorrect, wrong person came to surgery
+5. 403 => you are banned in the hospital 
+
+// creating a http server 
+// we are using express
+// is express node default library => no , that is it does not come bundled with node js 
+
+const exp = require("constants");
+const express = require("express");
+//two lines i always have to write 
+
+const app = express();
+
+
+// req and res => they stand for request and response  
+app.get("/" , function(req,res){
+    
+})
+
+app.listen(3000)
+
+
+
+
+// this three lines are quite enough for you to say that the http server is created
+
+
+The http topic is eating my heads neurons , I have no fucking idea , how will I do all those questions , those are really tough 
+Fuck man 
+ 
